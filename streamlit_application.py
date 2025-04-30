@@ -12,6 +12,7 @@ ps=PorterStemmer()
 from xgboost import XGBClassifier
 
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 def transform_text(text):
