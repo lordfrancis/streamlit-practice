@@ -8,7 +8,6 @@ import nltk
 from nltk.corpus import stopwords
 import string
 from nltk.stem.porter import PorterStemmer
-import pandas as pd
 ps=PorterStemmer()   
 from xgboost import XGBClassifier
 
